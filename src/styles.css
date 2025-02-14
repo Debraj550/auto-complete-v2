@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search-input {
+  min-width: 500px;
+  padding: 6px;
+}
+
+.search-results-container {
+  width: 500px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 8px 0px;
+  text-align: left;
+}
+
+.search-result {
+  display: block;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.search-result:hover,
+.search-result.selected {
+  background-color: beige;
+}
